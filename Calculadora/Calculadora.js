@@ -4,7 +4,6 @@ function proceso(){
     
 }
 
-
 function resultado(){
 
     const valor = document.getElementById("kwh").value;
