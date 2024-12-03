@@ -1,0 +1,35 @@
+
+@media(max-width:790px){
+    #contenido{
+        min-height: 80vh;
+    }
+    
+    #formulario{
+    
+        width: 80%;
+        text-align: center;
+        margin-top: 10% !important;
+        margin: auto;
+        z-index: 2;
+        height: 55vh;
+    }
+    
+    .bordes{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    
+    }
+    
+    #inferior{
+
+        
+        filter: brightness(1.5);
+        mix-blend-mode:multiply;
+        height: 15vh;
+        width: 100%;
+
+    }
+    
+
+}

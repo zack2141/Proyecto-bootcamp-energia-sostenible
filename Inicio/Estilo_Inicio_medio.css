@@ -1,0 +1,130 @@
+@media(max-width:790px){
+
+    /* secction info general*/
+
+    .principal{
+        width: 100%;
+        max-height: 100vh;
+    }
+    
+    .formato-i{
+        min-height: 50vh ;
+        width: 100%;
+    }
+    
+    .formato-i.img1{
+        background-image: linear-gradient( to left, #ffffff, transparent),url('../Recursos/Imagenes_inicio/Desierto.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .formato-i.img2{
+        background-image: linear-gradient( to right, #ffffff, transparent),url('../Recursos/Imagenes_inicio/Represa.jpg');
+        background-size: cover;
+    }
+    
+    .formato-i.img3{
+        background-image: linear-gradient( to left, #ffffff, transparent),url('../Recursos/Imagenes_inicio/Campo_eolica.jpg');
+        background-size: cover;
+    }
+    
+    .formato-t{
+        width: 100%;
+        padding: 3%;
+        text-align: center;
+    }
+
+
+
+    /* Section contenido5*/
+
+    #contenido5{
+        width: 100%;
+        min-height: 30vh;
+        max-height: 70vh;
+        display: flex;
+    }
+    .bordes{
+        width: 30%;
+        min-height: 40vh;
+        max-height: 70vh;
+        filter: brightness(1.1);
+        mix-blend-mode:multiply;
+    
+    }
+    
+    #texto{
+        width:75%;
+        text-align: center;
+        padding: 5%;
+        overflow: auto;
+    }
+    
+    .bordes.invertido{
+        transform: scaleX(-1);
+    }
+
+
+
+    /*section contenido6*/
+
+    #contenido6{
+        width: 100%;
+        height: auto;
+    }
+    
+    #carouselExampleSlidesOnly{
+        width: 100%;
+        height: 50vh;
+        
+    }
+    
+    .img-slide{
+        min-height: 50vh;
+        width: 100%;
+    }
+    
+    .img-slide.img1{
+    
+        background-image:linear-gradient(to left,white,transparent), url('../Recursos/Imagenes_inicio/Cafe.jpg');
+    
+        /*width --- height*/
+        background-size: 100% 50vh;
+    }
+    
+    .img-slide.img2{
+    
+        background-image:linear-gradient(to left,white,transparent), url('../Recursos/Imagenes_inicio/Fruta.jpg');
+    
+        /*width --- height*/
+        background-size: 100% 50vh;
+    }
+    
+    
+    .img-slide.img3{
+    
+        background-image:linear-gradient(to left,white,transparent), url('../Recursos/Imagenes_inicio/platacion_aceite.jpg');
+    
+        /*width --- height*/
+        background-size: 100% 50vh;
+    }
+    
+    #texto-cont6{
+        width: 100%;
+        padding: 3%;
+        direction: rtl;
+        overflow: auto;
+    }
+    
+    .txt{
+        border: 2px solid greenyellow;
+        border-radius: 10px;
+        width: 80%;
+        margin: auto;
+        color:#ffffff;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+
+}

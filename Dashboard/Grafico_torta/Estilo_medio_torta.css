@@ -1,0 +1,33 @@
+@media(min-width: 505px) and (max-width:790px){
+    #contenido{
+        min-height: 110vh;
+        max-height: 250vh;
+    }
+    
+    /*grafico torta*/
+    
+    .content{
+        min-height: 30vh;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .content.grafico-torta{
+        
+        margin-left: 17%;
+        width: 25%;
+        float: left;
+    }
+    
+    .content.interaccion{
+        float: left;
+        max-height: 50vh;
+        width: 40%;
+        text-align: center;
+    }
+    
+}
+
+
+
+

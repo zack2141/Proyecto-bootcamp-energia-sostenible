@@ -1,0 +1,91 @@
+.navbar{
+    width: 100%;
+    min-height: 12vh;
+    max-height: 50vh;
+    background-color: rgb(214, 214, 208) !important;
+    position: fixed;
+    z-index: 3;
+}
+
+#secundario{
+    width: 100% ;
+    height: 12vh;
+}
+
+
+.container-fluid.contenedor{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary.contenedor{
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+    height: 12vh;
+    border:none !important;
+
+}
+
+
+@media(min-width:990px){
+
+    a{
+        direction: rtl;
+        padding-right: 3% !important;
+        
+    }
+    
+    a:hover{
+        
+        background: linear-gradient( transparent, rgb(255, 255, 255) , transparent);
+    }
+
+
+}
+
+@media(max-width:990px){
+    a{
+        direction: rtl;
+        padding-right: 3% !important;
+    }
+    
+    a:hover{
+        background-color: rgb(255, 255, 255) ;
+    }
+
+}
+
+/*footer*/
+footer{
+
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(214, 214, 208);
+
+}
+
+
+/* scrollbar*/
+
+body::-webkit-scrollbar{
+
+    width: 10px;
+    border-radius: 4px;
+    background-color: rgb(100, 107, 108);
+    
+}
+
+body::-webkit-scrollbar-thumb{
+
+    border-radius: 4px;
+    background-color: rgb(166, 172, 172);
+    
+}
+
+
+
+
+

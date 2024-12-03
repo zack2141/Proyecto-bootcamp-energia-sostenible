@@ -1,0 +1,207 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* section contenido1*/
+
+#contenido1{
+    width: 100%;
+    height: 88vh;
+}
+
+.carousel{
+    width: 100%;
+    height: 88vh;
+}
+
+
+.desenfoque{
+    width: 100%;
+    height: 88vh;
+    backdrop-filter: blur(6px);
+    padding: 14%;
+}
+.car{
+    width: 100%;
+    height: 88vh;
+    background-size: 100% 88vh;
+    font-size: 1.2rem;
+    
+}
+.car.itm1{
+
+    background-image:url('../Recursos/Imagenes_inicio/selva_oscura_animales.jpg') ;
+    backdrop-filter: blur(10px);
+
+}
+.car.itm2{
+
+    background-image:url('../Recursos/Imagenes_inicio/selva_animales_moos.jpg') ;
+}
+.car.itm3{
+
+    background-image:url('../Recursos/Imagenes_inicio/selva_tropical.jpg') ;
+
+}
+
+
+
+
+@media(min-width:791px){
+    /* secction info general*/
+
+    .principal{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .formato-i{
+        min-height: 50vh ;
+        width: 50%;
+        padding: 3%;
+        border: none;
+    }
+    
+    .formato-i.img1{
+        background-image: linear-gradient( to left, #ffffff, transparent),url('../Recursos/Imagenes_inicio/Desierto.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+    }
+    
+    .formato-i.img2{
+        background-image: linear-gradient( to right, #ffffff, transparent),url('../Recursos/Imagenes_inicio/Represa.jpg');
+        background-size: cover;
+        float: right;
+    }
+    
+    .formato-i.img3{
+        background-image: linear-gradient( to left, #ffffff, transparent),url('../Recursos/Imagenes_inicio/Campo_eolica.jpg');
+        background-size: cover;
+        float: left;
+    }
+    
+    .formato-t{
+        min-height: 50vh ;
+        width: 50%;
+        padding: 2%;
+        overflow: auto;
+        font-size: 1.05rem;
+    }
+    
+    .formato-t.texto1{
+        direction: rtl;
+        float: right;
+    }
+    
+    .formato-t.texto2{
+    
+        direction: ltr;
+        float: left;
+        
+    }
+    
+    .formato-t.texto3{
+        direction: rtl;
+        float: right;
+    }
+    
+    /* Section contenido5*/
+    
+    #contenido5{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+    }
+    .bordes{
+        height: 70vh;
+        filter: brightness(1.1);
+        mix-blend-mode:multiply;
+    
+    }
+    
+    #texto{
+        width:75%;
+        text-align: center;
+        margin: auto;
+        padding: 5%;
+        overflow: auto;
+        font-size: 1.2rem;
+    }
+    
+    .bordes.invertido{
+        transform: scaleX(-1);
+    }
+    
+    /*section contenido6*/
+    
+    #contenido6{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+    }
+    
+    #carouselExampleSlidesOnly{
+        width: 50%;
+        height: 70vh;
+        
+    }
+    
+    .img-slide{
+        height: 70vh;
+        width: 100%;
+    }
+    
+    .img-slide.img1{
+    
+        background-image:linear-gradient(to left,white,transparent), url('../Recursos/Imagenes_inicio/Cafe.jpg');
+    
+        /*width --- height*/
+        background-size: 100% 70vh;
+    }
+    
+    .img-slide.img2{
+    
+        background-image:linear-gradient(to left,white,transparent), url('../Recursos/Imagenes_inicio/Fruta.jpg');
+    
+        /*width --- height*/
+        background-size: 100% 70vh;
+    }
+    
+    
+    .img-slide.img3{
+    
+        background-image:linear-gradient(to left,white,transparent), url('../Recursos/Imagenes_inicio/platacion_aceite.jpg');
+    
+        /*width --- height*/
+        background-size: 100% 70vh;
+    }
+    
+    #texto-cont6{
+        width: 50%;
+        direction: rtl;
+        margin: 5%;
+        overflow: auto;
+        font-size: 1rem;
+    }
+    
+    .txt{
+        border: 2px solid greenyellow;
+        border-radius: 10px;
+        width: 80%;
+        margin: auto;
+        color:#ffffff;
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    
+
+
+
+
+}
+
+
+

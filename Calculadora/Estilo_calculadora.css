@@ -1,0 +1,40 @@
+
+@media(min-width:791px){
+    #contenido{
+        min-height: 80vh;
+        display: flex;
+    }
+    
+    #formulario{
+    
+        width: 70%;
+        text-align: center;
+        margin-top: 10% !important;
+        margin: auto;
+        z-index: 2;
+        font-size: 1.1rem;
+    }
+    
+    .bordes{
+        height: 80vh;
+        filter: brightness(1.1);
+        mix-blend-mode:multiply;
+        z-index: 1;
+    
+    }
+    
+    .bordes.invertido{
+        transform: scaleX(-1);
+    }
+    
+    #inferior{
+        visibility: hidden;
+        height: 0;
+        width: 0%;
+    }
+    
+
+}
+
+
+

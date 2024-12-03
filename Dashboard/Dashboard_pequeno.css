@@ -1,0 +1,123 @@
+@media(max-width:500px){
+
+    
+/*contenido*/
+#contenido{
+    width: 100%;
+    min-height: 70vh;
+    min-height: 88vh;
+
+    padding: 3%;
+
+}
+
+
+.grafico{
+
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+   box-shadow: 7px 5px 7px 7px rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+   transition: 1.5s ;
+   overflow: hidden;
+   position: relative;
+   background-color: white;
+   z-index: 1;
+   margin-top: 4%;
+   text-align: center;
+}
+
+/*clase padre de las secciones*/
+
+
+
+.contenedor-interno{
+    width: 80%;
+    height: 20vh;
+    margin: auto;
+}
+
+/*seccion grafico tabla*/
+.grafico.tabla{
+
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 1.5%;
+
+}
+
+.table{
+    margin-left: 10%;
+    width: 80%;
+    margin: auto;
+    border: 1.5px solid black;
+}
+
+th{
+    border: 1.5px solid black;
+}
+
+
+/*seccion grafico torta*/
+.grafico.torta{
+
+    width: 100%;
+    height: 35vh;
+}
+
+
+
+#grafico-torta{
+    width: 50%;
+    height: 30vh;
+    padding: 0%;
+    margin-left: 9%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1{
+    margin-top: 10%;
+}
+
+
+/*seccion grafico linea*/
+.grafico.linea{
+
+    width: 100%;
+    height: 35vh;
+    
+    
+}
+
+
+
+/* seccion grafico barra*/
+.grafico.barra{
+    width: 100%;
+    height: 35vh;
+    
+}
+
+
+/*seccion grafico area*/
+.grafico.area{
+
+    width: 100%;
+    height: 35vh;
+    
+}
+
+#grafico-area{
+    width: 100%;
+    height: 30vh;
+    margin-left: 9%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5%;
+}
+
+
+
+
+}

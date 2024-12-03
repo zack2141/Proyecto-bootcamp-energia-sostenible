@@ -1,0 +1,45 @@
+
+@media(min-width:791px){
+
+    #contenido{
+        width: 100%;
+        height: 90vh;
+        transition: 1.5s ease;
+    
+    }
+    
+    
+    #borde_derecho{
+        width: 20%;
+        height: 90vh;
+        float: right;
+        background-image: linear-gradient(to right,white,transparent),url('../Recursos/Imagenes_feedback/Ciudad.jpg');
+         /*width --- height*/
+         background-size: 100% 90vh;
+    
+        background-repeat: no-repeat;
+    
+    }
+    
+    
+    form{
+        padding-top: 3%;
+        width: 50%;
+        float: left;
+        margin-left: 3%;
+    }
+    
+    
+    #exampleFormControlTextarea1{
+        max-height: 40vh;
+    
+    }
+    
+    .form-control{
+        border: 2px solid black;
+    }
+
+}
+
+
+

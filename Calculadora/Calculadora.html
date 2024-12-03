@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <!--Implementacion Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--Fin implementacion Bootstrap-->
+
+    <link rel="stylesheet" href="../navegador/Estilo_navegador.css">
+    <link rel="stylesheet" href="Estilo_calculadora.css">
+    <link rel="stylesheet" href="Estilo_medio_calculadora.css">
+    <script src="Calculadora.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary contenedor" >
+        <div class="container-fluid contenedor" >
+          <img src="../Recursos/Navegador/Logo.jpg" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="../Inicio/Inicio.html">Inicio</a>
+              <a class="nav-link" href="../Dashboard/Dashboard.html">Dashboard</a>
+              <a class="nav-link" href="../Feedback/Feedback.html">Feedback</a>
+              <a class="nav-link" href="#">Calculadora</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div id="secundario">
+    </div>
+    <main id="contenido">
+
+      <img src="../Recursos/Imagenes_calculadora/Plantas_tropicales.jpg" alt="" class="bordes">
+
+        
+        <form action="" id="formulario">
+
+          <h1>Calculadora</h1>
+          <p>
+            Conocer nuestra participacion en el consumo, nos ayudara a concientizarnos acerca del impacto que
+            tenemos sobre nuestro medio al estar conectados a una fuente de energia, para ello, esta calculadora nos ayudara
+            a saber cuantos Twh consumimos a partir de un promedio mensual que ingresaras en kwh. 
+          </p>
+
+           <img src="" alt="">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Kwh</span>
+                <input id="kwh" type="text" class="form-control" placeholder="Varlor de consumo en Kwh" aria-label="Username" aria-describedby="basic-addon1"
+                onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1">
+              </div>
+            <button type="button" class="btn btn-success" onclick="resultado()">Calcular</button>
+
+        </form>
+
+      <img src="../Recursos/Imagenes_calculadora/Plantas_tropicales.jpg" alt="" class="bordes invertido">
+
+      <img src="../Recursos/Imagenes_calculadora/mural_plantas.jpg" alt="" id="inferior">
+    </main>
+
+    <!--Implementacion de libreria Sweetalert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Fin implementacion de libreria Sweetalert-->
+</body>
+
+<footer></footer>
+</html>

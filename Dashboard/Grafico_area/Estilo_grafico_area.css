@@ -1,0 +1,30 @@
+@media(min-width:791px){
+    #contenido{
+        width: 100%;
+        min-height: 80vh;
+        max-height: 150vh;
+    }
+    
+    .tamano{
+        height: 65vh;
+        width: 40%;
+    }
+    /*tabla de datos*/
+    #tabulacion{
+        width: 40%;
+        
+        overflow-y:auto ;
+        margin-top: 3%;
+        margin-left: 5%;
+        float: left;
+        border: solid black;
+    }
+    
+    /*grafico de barras*/
+    #grafico{
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 8%;
+        float: left;
+    }
+}
